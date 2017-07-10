@@ -1,21 +1,333 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
+  <title>Lucas F. Ribeiro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <!-- Le styles -->
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+  <!-- Le javascript
+    ================================================== -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="style.css" rel="stylesheet" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
 </head>
 
-<body>
-  <h1>Hello Facebook App!</h1>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#myPage">Lucas F. Ribeiro</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ADVOGADO</a></li>
+          <li><a href="#services">AREAS DE ATUACAO</a></li>
+          <li><a href="#escritorio">ESCRITORIO E VALORES</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center">
+    <h1>Advocacia e Consultoria Juridica</h1>
+    <p>Nos especializamos em casos familiares</p>
+    <!-- <a href="#about" class="btn btn-danger">LEIA MAIS</a>-->
+    <a href="#contact" class="btn btn-primary">FALE CONOSCO</a>
+    <!-- <form class="form-inline">
+        <div class="input-group">
+          <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-danger btn-lg">Subscribe</button>
+          </div>
+        </div>
+      </form>-->
+  </div>
+
+  <div id="about" class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4 pull-left">
+        <!--<img class="img-thumbnail img-circle" src="https://digital.swiss/img/ds-placeholder-person.png" width="80%" heigth="80%">-->
+        <img class="img img-thumbnail img-circle" src="https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/12376309_855705317874094_3616933383411465107_n.jpg?oh=4d5e93e75bdba1281f57b1994b00baa5&oe=5A02EC99" width="80%" heigth="80%">
+    </div>
+      <div class="col-sm-8">
+        <h2>Advogado</h2>
+        <!--<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
+        <h4>Graduado em Direito pela PUC/PR (Pontifícia Universidade Católica do Paraná - Campus Londrina), turma de 2007-2011.
+          Antes mesmo de concluir a graduação em Direito, foi aprovado no IV Exame da Ordem dos Advogados do Brasil no ano de 2011.
+        </h4>
+        <p>Assim, em março de 2012, após juramento na OAB, tornou-se uma profissional da área do Direito, exercendo a advocacia de forma autônoma.
+        Especializad0 em Direito Ambiental e, também, pós-graduado pela Escola da Magistratura do Estado do Paraná.
+        </p>
+        <p>
+        Com o intuito de aprimoramento e prática profissional, atuou como estagiário de pós-graduação na Promotoria de Proteção ao Patrimônio Público nos anos de 2013 e 2014. Em 2015 retomou às atividades como advogad0, defendendo seus amigos e clientes com total afinco e responsabilidade.
+        Em 2015 foi nomeado como conciliadora pelo Tribunal de Justiça do Estado do Paraná e realizou inúmeras audiências para as três Varas de Família de Londrina em 2015 e 2016.
+        </p>
+        <a href="#contact" class="btn btn-info">Fale comigo</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="container-fluid text-center bg-grey">
+    <h2>Areas de Atuacao</h2>
+    <h4>O que oferecemos</h4>
+    <br />
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="logo-small glyphicon glyphicon-folder-open"></span>
+        <h4>Admnistrativo</h4>
+        <!--<img class="img img-circle img-thumbnail" style='background-color:#4da6ff;' width='50px;' height='50px;' src="http://mgturcatto.adv.br/index_files/29f523_50f01a9ee8d3416e9451dfb59e9dd081-mv2.png.webp">-->
+        <p>Atua-se em desfavor do Poder Público na defesa dos interesses de todos cidadãos, através da propositura de ações judiciais e pleito administrativo. Defendendo candidatos de concursos púbicos visando suas nomeações, correções de provas, nulidade
+          de atos administrativos, entre outras causas. Da mesma forma, defende-se servidores públicos em processos administrativos disciplinares ou em esfera judicial.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="logo-small glyphicon glyphicon-tree-deciduous"></span>
+        <h4>Ambiental</h4>
+        <p>Em especial, atua-se na defesa do ambiente, auxiliando e concedendo pareceres jurídicos sobre questões ambientais. Visa-se a coletividade e os direitos difusos, uma vez que o meio ambiente é de todos e para todos. Nesta área atua-se no âmbito
+          judicial em defesa de ações e em recursos administrativos frente a multas e autuações de órgãos ambientais, em obediência às leis ambientais e constitucionais.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="logo-small glyphicon glyphicon-lock"></span>
+        <h4>Civil</h4>
+        <p>Uma das áreas mais abrangentes e de maior atuação do direito, atua-se frente a causas cíveis tanto na justiça comum como no juizado especial (pequenas causas), sobre fatos jurídicos, bens, direito das coisas e obrigações. Atua-se para pessoas
+          físicas e pessoas jurídicas em especial para questões de reparação de danos e/ou responsabilidade civil, seja ela objetiva ou subjetiva, e indenizações diversas; negociação, formulação e revisão de contratos; abertura e continuidade de inventários
+          judiciais e extrajudiciais; ações conta planos de saúde; ação de retificação de registro civil; entre outras questões relacionadas.</p>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="logo-small glyphicon glyphicon-user"></span>
+        <h4>Consumidor</h4>
+        <p>Área em total expansão na atualidade, o direito do consumidor garante a toda pessoa, que adquira ou faça uso de serviços ou produtos, uma ampla proteção de acordo com o Código de Defesa do Consumidor e outras legislações esparsas. Assim, defende-se
+          judicialmente e extrajudicialmente tais usuários ou então fornecedores e prestadores de serviços para atos em discordância com as normas legais. Neste âmbito, defende-se ou propõe-se ações indenizatórias materiais e morais, devido a defeitos
+          e vícios de produtos ou serviços, por condutas enganosas e abusivas, por produtos que causem risco à saúde, por inserção indevida de nome em serviços de proteção ao crédito ou outros atos que lesem os consumidores. Além disso, assessora-se e
+          atua-se no âmbito jurídico e administrativo frente a defesa de pessoas jurídicas prestadoras ou fornecedoras de produtos ou serviços.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="logo-small glyphicon glyphicon-link"></span>
+        <h4>Criminal</h4>
+        <p>Para a defesa de vítimas e réus, atua-se em processos criminais ou presta-se assessoria quanto a delitos e crimes de menor potencial ofensivo.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="logo-small glyphicon glyphicon-home"></span>
+        <h4>Empresarial</h4>
+        <p>Atua-se frente a relações comerciais, assessorando judicial e extrajudicialmente a constituição de pessoas jurídicas, recuperação judicial e falência, títulos de crédito, contratos, distratos, estatutos sociais, entre outras questões de gestão
+          empresarial.
+        </p>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row slideanim">
+      <div class="col-sm-6">
+        <span class="logo-small glyphicon glyphicon-heart-empty"></span>
+        <h4>Familia e Successoes</h4>
+        <p>Dentro das áreas do Direito de Família e Sucessões, atua-se prestando assessoria através do ajuizamento ou apresentação de defesa em demandas judiciais e extrajudiciais, tais como ação de alimentos; divórcio litigioso ou consensual; reconhecimento
+          de união estável; regulamentação de guarda e visitas; execução de alimentos; inventário, dentre outras.</p>
+      </div>
+      <div class="col-sm-6">
+        <span class="logo-small glyphicon glyphicon-list-alt"></span>
+        <h4>Registros Publicos</h4>
+        <p>Presta-se assessoria jurídica em ação de retificação de registro civil, demanda necessária para a regularização de nomes e informações em registros de nascimento, casamento e óbito para obtenção de cidadanias estrangeiras (cidadania italiana,
+          portuguesa, espanhola e etc). </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid text-center">
+    <h2>O que nossos clients dizem</h2>
+    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <h4>"Dr. Ribeiro e muito profissional. Eu estou muito contente com o servico dele..."<br>
+              <span style="font-style:normal;">Maria Bethania, Vice Presidente, Sercometel</span>
+            </h4>
+        </div>
+        <div class="item">
+          <h4>"Lucas presta atencao nos menores detalhe...s"<br>
+              <span style="font-style:normal;">Tom Jobim</span>
+            </h4>
+        </div>
+        <div class="item">
+          <h4>"Esse e o unico advogado que confio..."<br>
+              <span style="font-style:normal;">Maria Alcina</span>
+            </h4>
+        </div>
+      </div>
+
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <div id='escritorio' class='container-fluid text-center bg-grey'>
+    <h2>NOSSO ESCRITORIO E VALORES</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-home logo slideanim"></span>
+      </div>
+      <div class="col-sm-8">
+        <p class='text-left'>
+          O Fugiwara Ribeiro Advocacia e Consultoria Jurídica foi fundado neste ano de 2016. Situado em Londrina, PR, cidade berço do advogado Lucas que, após se dedicar ao estudo jurídico através de especializações, consolidou-se profissionalmente com o referido
+          escritório.
+        </p>
+        <p class='text-left'>
+          Com o intuito de prestar suporte jurídico de qualidade, o escritório oferece a todos seus clientes um serviço personalizado e eficiente, não se limitando a atuar apenas através de demandas judiciais, mas oferecendo também serviços de prevenção e planejamento
+          estratégico em todas as áreas de atuação, ofertando soluções inteligentes, práticas, pautadas na ética, com responsabilidade social e total conhecimento jurídico.
+        </p>
+        <p class='text-left'>
+          A prioridade é sempre melhor atender os interesses e compromissos de todos clientes e parceiros, garantindo seriedade e comprometimento em todos os momentos.
+        </p>
+      </div>
+    </div>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <h4><strong>FILOSOFIA</strong></h4>
+        <p>
+          Prestar suporte jurídico de qualidade, oferecendo a todos clientes um serviço personalizado e eficiente, não se limitando a atuar apenas através de demandas judiciais, mas oferecendo também serviços de prevenção e planejamento estratégico em todas as áreas de atuação, ofertando soluções inteligentes, práticas, pautadas na ética, com responsabilidade social e total conhecimento jurídico.
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h4><strong>MISSAO</strong></h4>
+        <p>
+          Ser referência em demandas jurídicas no ramo forense da cidade de Londrina, mantendo a atenção e zelo por seus clientes, firmando uma sólida relação com estes, objetivando reconhecimento nos ramos do direito que se atua e estabelecer metas visando sempre o aprimoramento e a qualidade dos serviços.
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h4><strong>VISAO</strong></h4>
+        <p>
+          Trabalhar com total ética, responsabilidade, transparência, com espírito de justiça e verdade, pró-atividade, total sigilo profissional e de acordo com os parâmetros legais.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!--<div class="container-fluid bg-grey">
+    <div class="row">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-globe logo slideanim"></span>
+      </div>
+      <div class="col-sm-8">
+        <h2>Nosso ESCRITORIO E VALORES</h2>
+        <p>
+          O Fugiwara Ribeiro Advocacia e Consultoria Jurídica foi fundado neste ano de 2016. Situado em Londrina, PR, cidade berço do advogado Lucas que, após se dedicar ao estudo jurídico através de especializações, consolidou-se profissionalmente com o referido
+          escritório.
+        </p>
+        <p>
+          Com o intuito de prestar suporte jurídico de qualidade, o escritório oferece a todos seus clientes um serviço personalizado e eficiente, não se limitando a atuar apenas através de demandas judiciais, mas oferecendo também serviços de prevenção e planejamento
+          estratégico em todas as áreas de atuação, ofertando soluções inteligentes, práticas, pautadas na ética, com responsabilidade social e total conhecimento jurídico.
+        </p>
+        <p>
+          A prioridade é sempre melhor atender os interesses e compromissos de todos clientes e parceiros, garantindo seriedade e comprometimento em todos os momentos.
+        </p>
+        <h4><strong>FILOSOFIA:</strong> Prestar suporte jurídico de qualidade, oferecendo a todos clientes um serviço personalizado e eficiente, não se limitando a atuar apenas através de demandas judiciais, mas oferecendo também serviços de prevenção e planejamento estratégico em todas as áreas de atuação, ofertando soluções inteligentes, práticas, pautadas na ética, com responsabilidade social e total conhecimento jurídico.
+        </h4>
+        <h4><strong>MISSAO:</strong> Ser referência em demandas jurídicas no ramo forense da cidade de Londrina, mantendo a atenção e zelo por seus clientes, firmando uma sólida relação com estes, objetivando reconhecimento nos ramos do direito que se atua e estabelecer metas visando sempre o aprimoramento e a qualidade dos serviços.
+        </h4>
+        <p><strong>VISION:</strong> Trabalhar com total ética, responsabilidade, transparência, com espírito de justiça e verdade, pró-atividade, total sigilo profissional e de acordo com os parâmetros legais.
+        </p>
+      </div>
+    </div>
+  </div>-->
+
+  <div id="contact" class="container-fluid">
+    <h2 class="text-center">Contato</h2>
+    <div class="row slideanim ">
+      <div class="col-sm-5">
+        <p>Fale conosco e nos responderemos o mais rapido possivel.</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Londrina, Parana</p>
+        <p><span class="glyphicon glyphicon-phone"></span> 043 9091-1515</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> lfribeiro@lfribeiro.com</p>
+      </div>
+      <div class="col-sm-7">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+        <br>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <button class="btn btn-default pull-right" type="submit">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Google Maps -->
+  <div class="slideanim" id="googleMap" style="height:400px;width:100%;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2178.7562634105166!2d-51.16720331082818!3d-23.307896476303625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb44a4285f495b%3A0x714496e64f3a9e12!2sLondrina+P%C3%A1ra-Raios!5e0!3m2!1sen!2sus!4v1499495999078"
+    width="100%" height="400" frameborder="0" style="pointer-events:none;border:0"></iframe>
+
+  </div>
+  <script>
+    function myMap() {
+    var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+    var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    var marker = new google.maps.Marker({position:myCenter});
+    marker.setMap(map);
+    }
+  </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn8Vomp82WFayByST1dw2BPRYdphNYv00&callback=myMap"></script>
+ 
+
+  <footer class="container-fluid text-center">
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Theme made by Onivoj Enterprises</p>
+
+  </footer>
+
 </body>
+
 </html>
